@@ -27,6 +27,12 @@
  - [Expo Problemas Comuns](https://github.com/Rocketseat/expo-common-issues)
  - [Expo Google Fonts](https://github.com/expo/google-fonts)
  
+ 
+<h2 align="center">Demonstração</h2>
+
+<h3 align="center">
+<img alt="Mobile" title="Mobile" width="300px" src="https://github.com/julionery/rocketseat-nlw/blob/master/docs/ecoleta-mobile.gif?raw=true">
+</h3>
 
 ---
 
