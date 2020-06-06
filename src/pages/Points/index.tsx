@@ -67,17 +67,20 @@ const Points = () => {
   }, []);
 
   useEffect(() => {
-    api.get('points', {
-      params: {
-        city: routeParams.city,
-        uf: routeParams.uf,
-        items: selectedItems
-      }
-    }).then( response => {
-      setPoints(response.data);
+    if(selectedItems.length > 0){
+      api.get('points', {
+        params: {
+          city: routeParams.city,
+          uf: routeParams.uf,
+          items: selectedItems
+        }
+      }).then( response => {
+          setPoints(response.data);
+        }
+      )
+    }else{
+      setPoints([]);
     }
-
-    )
   }, [selectedItems]);
 
   function handleNavigateBack(){
@@ -103,7 +106,7 @@ const Points = () => {
     <>
       <View style={styles.container}>
         <TouchableOpacity onPress={handleNavigateBack}>
-          <Icon name="arrow-left" size={20} color="#34cb79"></Icon>
+          <Icon name="arrow-left" size={24} color="#34cb79"></Icon>
         </TouchableOpacity>
         <Text style={styles.title}>Bem vindo.</Text>
         <Text style={styles.description}>Encontre no mapa um ponto de coleta.</Text>
@@ -226,6 +229,7 @@ const styles = StyleSheet.create({
     color: '#FFF',
     fontSize: 13,
     lineHeight: 23,
+    paddingHorizontal: 5
   },
 
   itemsContainer: {
