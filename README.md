@@ -20,10 +20,10 @@
  - [Axios](https://github.com/axios/axios "Axios")
  - [MailComposer](https://docs.expo.io/versions/latest/sdk/mail-composer/)
 
-### API's
+### :globe_with_meridians: API's:
  - [Ecoleta](https://github.com/julionery/ecoleta-server-nodejs)
 
-### Links Úteis
+### :link: Links Úteis:
  - [Expo Problemas Comuns](https://github.com/Rocketseat/expo-common-issues)
  - [Expo Google Fonts](https://github.com/expo/google-fonts)
  
@@ -33,6 +33,29 @@
 <h3 align="center">
 <img alt="Mobile" title="Mobile" width="300px" src="https://github.com/julionery/rocketseat-nlw/blob/master/docs/ecoleta-mobile.gif?raw=true">
 </h3>
+
+
+### :information_source: Como Usar:
+
+Para executar corretamente esta aplicação você precisará do [Git](https://git-scm.com), [NodeJS](https://nodejs.org/en/) e [Yarn](https://yarnpkg.com/) já instalados. E da aplicação [(Servidor - API)](https://github.com/julionery/ecoleta-server-nodejs) devidamente configurada e é essencial ter o [Expo](https://expo.io/) instalado de forma global na máquina.  
+
+No seu terminal digite os comandos:
+
+```bash
+# Clone este repositório
+$ git clone https://github.com/julionery/ecoleta-mobile-react-native.git
+
+# Vá para a pasta do repositório
+$ cd ecoleta-mobile-react-native/
+
+# Instale as dependências
+$ npm install
+$ expo install
+
+# Inicie a aplicação
+$ npm start
+
+```
 
 ---
 
