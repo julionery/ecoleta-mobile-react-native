@@ -31,7 +31,7 @@
 <h2 align="center">Demonstração</h2>
 
 <h3 align="center">
-<img alt="Mobile" title="Mobile" width="300px" src="https://github.com/julionery/rocketseat-nlw/blob/master/docs/ecoleta-mobile.gif?raw=true">
+<img alt="Mobile" title="Mobile" width="300px" src="https://github.com/julionery/docs/blob/master/NLW-01/ecoleta.gif?raw=true">
 </h3>
 
 
