@@ -10,6 +10,12 @@
 </p>
 <h2 align="center">Aplicação Mobile</h2>
 
+Este repositório contém a Aplicação Mobile do projeto [Ecoleta](https://github.com/julionery/rocketseat-nlw). 
+
+### :pushpin: Pre-requisitos:
+- [Ecoleta API](https://github.com/julionery/ecoleta-server-nodejs)
+- [Ecoleta Web](https://github.com/julionery/ecoleta-web-react)
+
 ### :rocket: Tecnologias:
  - [React Native](https://reactnative.dev/ "React Native")
  - [TypeScript](https://www.typescriptlang.org/)
@@ -34,7 +40,6 @@
 <img alt="Mobile" title="Mobile" width="300px" src="https://github.com/julionery/docs/blob/master/NLW-01/ecoleta.gif?raw=true">
 </h3>
 
-
 ### :information_source: Como Usar:
 
 Para executar corretamente esta aplicação você precisará do [Git](https://git-scm.com), [NodeJS](https://nodejs.org/en/) e [Yarn](https://yarnpkg.com/) já instalados. E da aplicação [(Servidor - API)](https://github.com/julionery/ecoleta-server-nodejs) devidamente configurada e é essencial ter o [Expo](https://expo.io/) instalado de forma global na máquina.  
@@ -56,6 +61,9 @@ $ expo install
 $ npm start
 
 ```
+
+## :memo: Licença
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
